@@ -6,10 +6,6 @@ let blockTypeSub = null;
 let modeIndicator = null;
 let currentMode = null;
 
-function spy(k, m, v) {
-	console.log(k, ' ', m, ' ', v);
-	return v;
-}
 async function changeMode(...args) {
 	const availableModes = vscode.workspace.getConfiguration('modes').get<object>('availableModes');
 	const targetMode = args[0]?.mode;
