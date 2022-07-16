@@ -2,6 +2,7 @@
     "name": "vscode-modes",
 	"displayName": "Modes",
 	"description": "Minimal modal editing extension",
+	"publisher": "raystubbs",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.69.0"
@@ -15,7 +16,7 @@
 	"license": "MIT",
 	"activationEvents": [ "*" ],
 	"main": "./dist/extension.js",
-	"icon": "./icon.png",
+	"icon": "icon.png",
 	"contributes": {
 		"commands": [{
             "command": "modes.change",
